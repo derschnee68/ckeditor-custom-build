@@ -67,17 +67,5 @@ Here: https://ckeditor.com/docs/ckeditor5/latest/framework/
 
 Not yet, but it these integrations will be available at some point in the future.
 
-## Package.json
-Remove the following line:
-```json
-private: true
-```
-
-Add the following lines to `package.json`:
-```json
-"files": [
-"build"
-],
-"main": "build/ckeditor.js",
-```  
+  
   
