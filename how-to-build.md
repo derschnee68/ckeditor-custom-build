@@ -87,3 +87,6 @@ Add the following lines to `package.json`:
 ## Publish
 
 To publish just commit your changes to GitHub.
+
+Integrate the build in your application's `package.json`'s dependencies like this:
+`"ckeditor5-custom-build": "github:dasch-swiss/ckeditor_custom_build"`
