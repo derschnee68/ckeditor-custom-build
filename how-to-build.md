@@ -2,8 +2,9 @@
 
 ## Plugins
 
-Add the following plugins when using https://ckeditor.com/ckeditor-5/online-builder/.
+Add the following plugins when using <https://ckeditor.com/ckeditor-5/online-builder/>.
 Start with the selection "Classic". Make sure that the following plugins are activated:
+
 - Block quote
 - Bold
 - Code
@@ -21,6 +22,7 @@ Start with the selection "Classic". Make sure that the following plugins are act
 - Underline
 
 Then pick the items so they are included in the toolbar:
+
 - Heading
 - Bold
 - Italic
@@ -36,8 +38,9 @@ Then pick the items so they are included in the toolbar:
 - Horizontal Line
 
 Remove other items not contained in this list.
-	
-`src/ckeditor.js` `Editor.builtinPlugins` should now look like:	
+
+`src/ckeditor.js` `Editor.builtinPlugins` should now look like:
+
 - Autoformat,
 - BlockQuote,
 - Bold,
@@ -68,15 +71,17 @@ Remove other items not contained in this list.
 - TableToolbar,
 - TextTransformation,
 - Underline
-	
+
 ## Package.json
-    
+
 Remove the following line:
+
 ```json
 private: true
 ```
 
 Add the following lines to `package.json`:
+
 ```json
 "files": [
 "build"
@@ -89,4 +94,4 @@ Add the following lines to `package.json`:
 To publish just commit your changes to GitHub.
 
 Integrate the build in your application's `package.json`'s dependencies like this:
-`"ckeditor5-custom-build": "github:dasch-swiss/ckeditor_custom_build"`
+`"ckeditor5-custom-build": "github:dasch-swiss/ckeditor_custom_build#v1.0.0"`
