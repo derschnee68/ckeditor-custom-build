@@ -2,3 +2,4 @@ src/*
 sample/*
 .idea/*
 
+.DS_Store
