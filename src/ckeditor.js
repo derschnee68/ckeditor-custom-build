@@ -28,6 +28,7 @@ import SpecialCharactersMathematical from '@ckeditor/ckeditor5-special-character
 import Table from '@ckeditor/ckeditor5-table/src/table.js';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
+import FootNote from 'ckeditor5-footnote/src/footnote';
 
 class Editor extends ClassicEditor { }
 
@@ -39,6 +40,7 @@ Editor.builtinPlugins = [
     Code,
     CodeBlock,
     Essentials,
+    FootNote,
     Heading,
     HorizontalLine,
     Italic,
