@@ -11,8 +11,8 @@
     "@ckeditor/ckeditor5-basic-styles": "^31.0.0",
     "@ckeditor/ckeditor5-block-quote": "^31.0.0",
     "@ckeditor/ckeditor5-code-block": "^31.0.0",
-    "@ckeditor/ckeditor5-dev-utils": "^25.4.5",
-    "@ckeditor/ckeditor5-dev-webpack-plugin": "^25.4.5",
+    "@ckeditor/ckeditor5-dev-utils": "^31.0.0",
+    "@ckeditor/ckeditor5-dev-webpack-plugin": "^31.0.0",
     "@ckeditor/ckeditor5-editor-classic": "^31.0.0",
     "@ckeditor/ckeditor5-essentials": "^31.0.0",
     "@ckeditor/ckeditor5-heading": "^31.0.0",
@@ -28,14 +28,14 @@
     "@ckeditor/ckeditor5-table": "^31.0.0",
     "@ckeditor/ckeditor5-theme-lark": "^31.0.0",
     "@ckeditor/ckeditor5-typing": "^31.0.0",
-    "css-loader": "^5.2.7",
-    "postcss": "^8.3.11",
-    "postcss-loader": "^4.3.0",
-    "raw-loader": "^4.0.2",
-    "style-loader": "^2.0.0",
-    "terser-webpack-plugin": "^4.2.3",
-    "webpack": "^4.46.0",
-    "webpack-cli": "^4.9.1"
+    "css-loader": "^6.7.3",
+    "postcss": "^8.4.24",
+    "postcss-loader": "^6.2.1",
+    "style-loader": "^3.3.1",
+    "terser-webpack-plugin": "^5.3.0",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.0.1",
+    "raw-loader": "^4.0.2"
   },
   "scripts": {
     "build": "webpack --mode production"
