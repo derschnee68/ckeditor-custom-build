@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CKEditor 5 Test</title>
+    <script src="./build/ckeditor.js"></script>
+</head>
+<body>
+<h1>CKEditor 5 Test</h1>
+<div id="editor">
+    <p>This is the editor content.</p>
+</div>
+<script src="build/ckeditor.js">
+   Editor
+        .create(document.querySelector('#editor'))
+        .catch(error => {
+            console.error(error);
+        });
+</script>
+</body>
+</html>
